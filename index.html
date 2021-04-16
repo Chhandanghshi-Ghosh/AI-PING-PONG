@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body background="background.jfif">
+    <center>
+      <div class="btn btn-warning heading">
+        <h3>AI MARIO GAME</h3>
+        <button  class="btn btn-warning instructions" data-toggle="modal" data-target="#mymodal">Instructions</button>
+      </div>
+      <br>
+      <br>
+      <button onclick="startGame()" id="start" class="btn btn-success">START GAME</button>
+      <br>
+      <br>
+      <h3 class="btn btn-warning" id="status"></h3>
+      <br>
+      <br>
+      <div id="canvas"></div>
+      <div id="console"></div>
+
+    </center>
+
+  </body>
+</html>

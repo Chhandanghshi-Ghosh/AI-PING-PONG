@@ -1,0 +1,22 @@
+.heading{
+    text-align: left;
+    width: 100%;
+}
+
+.heading h3{
+    display: inline;
+    font-size:23px !important;
+}
+
+.instructions{
+    text-align: right;
+    float: right;
+}
+
+
+
+#start , #status{
+    font-size: 23px;
+}
+
+
