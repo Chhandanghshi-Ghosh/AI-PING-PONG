@@ -21,3 +21,7 @@ function setup() {
 	poseNet.on('pose', gotPoses);
 
 }
+
+function restart(){
+    restart()
+}
